@@ -1,5 +1,5 @@
 @description('Username for the Virtual Machine.')
-param adminUsername string = 'Student'
+param sku string = 'S1' // The SKU of App Service Plan
 
 @description('Password for the Virtual Machine.')
 @minLength(12)
